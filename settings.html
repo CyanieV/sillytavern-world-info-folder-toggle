@@ -1,0 +1,37 @@
+<div class="wig-settings">
+    <div class="inline-drawer">
+        <div class="inline-drawer-toggle inline-drawer-header">
+            <b>World Info Gallery · 条目包开关</b>
+            <div class="inline-drawer-icon fa-solid fa-circle-chevron-down down"></div>
+        </div>
+        <div class="inline-drawer-content">
+            <label class="checkbox_label">
+                <input id="wig-opt-tokens" type="checkbox">
+                <span>Show token counts on cards</span>
+            </label>
+            <label class="checkbox_label">
+                <input id="wig-opt-derive" type="checkbox">
+                <span>Use bound character / persona avatars as default covers</span>
+            </label>
+            <label class="wig-settings-row">
+                <span>Placeholder covers (books without an image):</span>
+                <select id="wig-opt-placeholder" class="text_pole">
+                    <option value="letter">First letter</option>
+                    <option value="initials">Word initials</option>
+                    <option value="icon">Book icon</option>
+                </select>
+            </label>
+            <div class="wig-settings-note">
+                Covers are uploaded to the server under <code>/user/images/worldinfo-gallery/</code>.
+                Folders are stored inside each lorebook as a per-entry <code>wig_folder</code> field,
+                so they survive ST updates and travel with the file on export/import.
+            </div>
+						            <div class="wig-settings-row">
+                <span>Chat links are remembered automatically, so lorebooks keep their chat badge after you leave the chat. "Scan all chats" re-reads every chat file once to backfill links made before the extension was installed.</span>
+                <div id="wig-scan-chats" class="menu_button">
+                    <i class="fa-solid fa-magnifying-glass"></i><span>Scan all chats</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
