@@ -2,6 +2,8 @@
 
 This is a customized version of [Shin-F's World Info Gallery](https://github.com/Shin-F/world-info-gallery), retaining the original MIT license. It opens SillyTavern's native World Info editor by default and adds folder-wide entry switches.
 
+> **二次修改说明：**本项目基于 [Shin-F 开发的 World Info Gallery](https://github.com/Shin-F/world-info-gallery) 修改，并非从零开发的原创插件。保留原项目作者署名及 MIT 许可证。此版本主要增加文件夹整组启用与禁用开关、默认使用酒馆原版世界书界面，并修复切换世界书时多选状态影响条目展开的问题。下方配图来自原项目，部分界面与此修改版不同。
+
 **使用方法：**在世界信息中选择一本世界书，点击「条目包」管理文件夹与条目。文件夹旁的开关可以统一启用或禁用其中所有条目；「画廊」按钮可打开世界书画廊。原版的世界书选择器和条目搜索仍在原位置。
 
 ![Gallery view](screenshots/gallery.png)
